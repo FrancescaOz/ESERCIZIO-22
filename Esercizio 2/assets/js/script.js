@@ -1,9 +1,9 @@
-class Pagination {
+/*class Pagination {
     constructor(_items = [], _pageSize = 2) {
         this.items = _items;
         this.pageSize = _pageSize;
     }
-}
+}*/
 
 const items = [
     { id: 1, nome: 'Cosimo', cognome: 'Gargiullo', classe: 'A' },
@@ -75,8 +75,7 @@ loading = () => {
     <td>${items[currentPage+1].cognome}</td>
     <td>${items[currentPage+1].classe}</td>`
   }
-  
-  
+
   
   
   
